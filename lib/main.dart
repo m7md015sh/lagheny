@@ -1,7 +1,10 @@
-import 'package:chat_app/auth/presentation/pages/login_screen.dart';
 import 'package:flutter/material.dart';
 
+import 'core/service_locator.dart';
+import 'features/auth/presentation/pages/login_screen.dart';
+
 void main() {
+  initSl();
   runApp(const MyApp());
 }
 
