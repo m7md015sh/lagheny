@@ -1,9 +1,14 @@
+import 'package:chat_app/firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 import 'core/service_locator.dart';
 import 'features/auth/presentation/pages/login_screen.dart';
 
-void main() {
+void main() async{
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   initSl();
   runApp(const MyApp());
 }
