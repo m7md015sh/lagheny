@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "351527399098",
+    "project_id": "lagheny-61256",
+    "storage_bucket": "lagheny-61256.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351527399098:android:c30daa583d7ebf25305c83",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbL22ChRVw-3vy2kzNxoqJfJ1KK36-U1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
