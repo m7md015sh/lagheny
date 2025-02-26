@@ -1,7 +1,9 @@
-class User{
+import 'package:equatable/equatable.dart';
+
+class User extends Equatable{
   final String name;
   final String email;
-  User({required this.name,required this.email});
+  const User({required this.name,required this.email});
 
   factory User.fromJson(Map<String,dynamic>json){
     return User(
@@ -10,4 +12,9 @@ class User{
     );
   }
 
+  @override
+  // TODO: implement props
+  List<Object?> get props => [ name, email];
+
 }
+

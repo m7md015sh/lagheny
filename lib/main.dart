@@ -6,6 +6,8 @@ import 'core/service_locator.dart';
 import 'features/auth/presentation/pages/login_screen.dart';
 
 void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
